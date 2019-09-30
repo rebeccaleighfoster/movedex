@@ -1,0 +1,20 @@
+{
+  "name": "moviedex-api",
+  "version": "1.0.0",
+  "description": "movie api practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "author": "rebecca",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3"
+  }
+}
