@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
   },
   "author": "rebecca",
+  "engines": {
+    "node": "10.16.3"
+  },
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
